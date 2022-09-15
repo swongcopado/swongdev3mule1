@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="a55cd1d7-d322-4bef-be9e-f20456375178" />
 	<flow name="swongdev3mule1Flow" doc:id="abd5763f-8831-4ed4-9d25-08e39c9dbc97" >
 		<http:listener doc:name="Listener" doc:id="dd928555-cc53-42af-be23-e534bc879c2f" config-ref="HTTP_Listener_config" path="/hello"/>
-		<set-payload value="hello demo" doc:name="Set Payload" doc:id="693f9d14-0354-44f1-b391-ca296f750b27" />
+		<set-payload value="hello swongdev3" doc:name="Set Payload" doc:id="693f9d14-0354-44f1-b391-ca296f750b27" />
 		<logger level="INFO" doc:name="Logger" doc:id="abcf676b-fff5-4655-b6f0-c7cf5f84ee2f" />
 	</flow>
 </mule>
